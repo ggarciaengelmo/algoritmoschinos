@@ -1,4 +1,5 @@
 def ins_sort(v):
+    """Primer algoritmo para ordenar un vector"""
     for i in range(1, len(v)):
         x = v[i]
         j = i - 1
